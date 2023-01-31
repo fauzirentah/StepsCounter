@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_500">#9C27B0</color>
+    <color name="purple_700">#7B1FA2</color>
+    <color name="teal_200">#80CBC4</color>
+    <color name="purple_200">#CE93D8</color>
+
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">@color/lochmara</color>
+
+    <!-- Colors to apply in views -->
+    <color name="button_primary">@color/bahama_blue_general</color>
+    <color name="button_primary_text">@color/white_solid</color>
+    <color name="button_primary_shadow">@color/lochmara</color>
+
+    <color name="button_ghost_frame">@color/black_solid</color>
+    <color name="button_ghost_text">@color/black_solid</color>
+    <color name="button_ghost_background">@color/white_solid</color>
+
+    <color name="text_link">@color/bahama_blue_link</color>
+    <color name="text_task_open">@color/bahama_blue_general</color>
+    <color name="text_task_finished">@color/lima</color>
+    <color name="text_normal">@color/gray_athens</color>
+    <color name="text_marked">@color/gray_iron</color>
+    <color name="text_heading_1">@color/gray_shuttle</color>
+    <color name="text_heading_2">@color/gray_chateau</color>
+    <color name="text_hint">@color/gray_oslo</color>
+    <color name="text_task_error">@color/monza</color>
+
+    <color name="image_brand_logo_tint">@color/you_tube_red</color>
+
+    <color name="navigation_drawer">@color/bondi_blue</color>
+
+    <color name="layout_primary_background">@color/white_solid</color>
+
+    <!-- Palette colors -->
+    <!-- Colors for "internal use" only -->
+
+    <!-- General palettes -->
+    <color name="black_solid">#000000</color>
+    <color name="lochmara">#008ECF</color>
+    <color name="lima">#78BE20</color>
+    <color name="monza">#E20015</color>
+    <color name="you_tube_red">#A20015</color>
+    <color name="bondi_blue">#00A8B0</color>
+    <color name="white_solid">#ffffff</color>
+
+    <!-- Palette Bahama blue -->
+    <color name="bahama_blue_general">#005691</color>
+    <color name="bahama_blue_link">#00639a</color>
+
+    <!-- Palette gray -->
+    <color name="gray_athens">#EFEFF0</color>
+    <color name="gray_chateau">#a8afb5</color>
+    <color name="gray_iron">#d4d7da</color>
+    <color name="gray_oslo">#7d8790</color>
+    <color name="gray_shuttle">#525F6B</color>
+    <color name="gray_silver_sand">#BFC0C2</color>
+</resources>

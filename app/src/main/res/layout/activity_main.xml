@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/color"
+
+
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        android:fontFamily="roboto"
+        android:text="Welcome"
+        android:textColor="@color/bahama_blue_general"
+        android:textSize="48dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/login" >
+
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="32dp"
+            android:fontFamily="roboto"
+            android:backgroundTint="@color/bahama_blue_link"
+            android:hint="Username"
+            android:inputType="textPersonName"
+            android:textColorHint="@color/text_hint"
+            android:textSize="18dp" />
+
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editText1"
+            android:drawableRight="@drawable/ic_remove_red_eye_black_24dp"
+            android:fontFamily="roboto"
+            android:hint="Password"
+            android:inputType="textPersonName"
+            android:password="true"
+            android:textColorHint="@color/text_hint"
+            android:textSize="18dp"
+            tools:backgroundTint="@color/bahama_blue_link" />
+
+        <Button
+            android:id="@+id/signin"
+            android:fontFamily="roboto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginRight="32dp"
+            android:background="@drawable/mybutton"
+            android:text="Sign In"
+            android:textColor="@color/button_primary_text"
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginRight="32dp"
+            android:background="@drawable/mybutton"
+            android:text="Sign Up"
+            android:textColor="@color/button_primary_text"
+            android:textSize="16dp" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
